@@ -2,15 +2,25 @@
 
 This is the source for [pdxnode.org](http://pdxnode.org).
 
-[![travis][3]][4]
-[![standard][5]][6]
+[![travis][1]][2]
+[![standard][3]][4]
 
-[1]: https://img.shields.io/npm/v/pdxnode-www.svg?style=flat-square
-[2]: https://www.npmjs.com/package/pdxnode-www
-[3]: https://img.shields.io/travis/pdxnode/pdxnode-www.svg?style=flat-square
-[4]: https://travis-ci.org/pdxnode/pdxnode-www
-[5]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
-[6]: http://npm.im/standard
+[1]: https://img.shields.io/travis/PDXNode/pdxnode-www.svg?style=flat-square
+[2]: https://travis-ci.org/PDXNode/pdxnode-www
+[3]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
+[4]: http://npm.im/standard
+
+## Developing
+
+```
+git clone git@github.com:PDXNode/pdxnode-www.git
+npm i
+npm start
+```
+
+1. `git clone` will clone the source of this repository to the working directory in your terminal
+1. `npm i` will install all dependencies needed for working on the site
+1. `npm start` will build the site and start a local live-reloading server so you can work on the site right away
 
 ## Contributing
 
