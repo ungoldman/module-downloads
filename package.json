@@ -21,7 +21,6 @@
     "website"
   ],
   "license": "MIT",
-  "main": "index.js",
   "private": true,
   "repository": {
     "type": "git",
