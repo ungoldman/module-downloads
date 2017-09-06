@@ -9,8 +9,9 @@
     </h1>
     <h4 align="center">Portland's very own Node.js usergroup</h4>
     <p align="center">
-      <a href="https://www.meetup.com/pdxnode"><img src="https://img.shields.io/badge/meetup-view%20events%20%E2%86%92-red.svg" alt="gitter"></a>
-      <a href="https://twitter.com/pdxnode"><img src="https://img.shields.io/badge/twitter-follow%20us%20%E2%86%92-blue.svg" alt="gitter"></a>
+      <a href="https://www.meetup.com/pdxnode"><img src="https://img.shields.io/badge/meetup-view%20events%20%E2%86%92-red.svg" alt="meetup"></a>
+      <a href="https://github.com/pdxnode"><img src="https://img.shields.io/badge/github-code%20with%20us%20%E2%86%92-orange.svg" alt="github"></a>
+      <a href="https://twitter.com/pdxnode"><img src="https://img.shields.io/badge/twitter-follow%20us%20%E2%86%92-blue.svg" alt="twitter"></a>
       <a href="https://gitter.im/pdxnode/Lobby"><img src="https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg" alt="gitter"></a>
     </p>
   </div>
