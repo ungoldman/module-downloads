@@ -1,0 +1,42 @@
+{
+  "name": "pdxnode-www",
+  "description": "PDXNode Website",
+  "version": "1.0.0",
+  "author": "Nate Goldman <ungoldman@gmail.com> (https://ungoldman.com)",
+  "bugs": {
+    "url": "https://github.com/ungoldman/pdxnode-www/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^1.0.0",
+    "live-server": "^1.2.0",
+    "npm-run-all": "^4.1.1",
+    "sitedown": "^3.1.1"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "homepage": "https://github.com/ungoldman/pdxnode-www",
+  "keywords": [
+    "pdxnode",
+    "website"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ungoldman/pdxnode-www.git"
+  },
+  "scripts": {
+    "build": "run-s build:*",
+    "build:cname": "cp src/CNAME build/",
+    "build:site": "sitedown src -l src/_layout.html -b build/",
+    "clean": "rm -rf build && mkdir -p build",
+    "gh-pages": "npm run build && gh-pages -d build",
+    "prebuild": "npm run clean",
+    "serve": "live-server build",
+    "start": "npm-run-all clean build:* --parallel watch serve",
+    "test": "standard",
+    "watch": "npm run build:site -- -w"
+  }
+}
