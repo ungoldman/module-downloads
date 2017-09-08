@@ -13,13 +13,13 @@ This is the source for [pdxnode.org](http://pdxnode.org).
 ## Developing
 
 ```
-git clone git@github.com:PDXNode/pdxnode.org.git
-npm i
+git clone git@github.com:PDXNode/pdxnode-org.git
+npm install
 npm start
 ```
 
 1. `git clone` will clone the source of this repository to the working directory in your terminal
-1. `npm i` will install all dependencies needed for working on the site
+1. `npm install` will install all dependencies needed for working on the site
 1. `npm start` will build the site and start a local live-reloading server so you can work on the site right away
 
 ## Contributing

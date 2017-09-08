@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PDXNode</title>
+    <link rel="shortcut icon" href="/favicon.ico?q=3" />
+    <link rel="stylesheet" href="https://unpkg.com/style.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <div class="hero">
+      <div class="hero-body">
+        <h1><%= error.status %> / <%= message %></h1>
+        <p><strong>Oh no!</strong> Our server encountered an error while processing your request.</p>
+        <pre><%= error.stack %></pre>
+      </div>
+    </div>
+  </body>
+</html>
