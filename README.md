@@ -1,4 +1,4 @@
-# pdxnode-www
+# pdxnode.org
 
 This is the source for [pdxnode.org](http://pdxnode.org).
 
@@ -13,7 +13,7 @@ This is the source for [pdxnode.org](http://pdxnode.org).
 ## Developing
 
 ```
-git clone git@github.com:PDXNode/pdxnode-www.git
+git clone git@github.com:PDXNode/pdxnode.org.git
 npm i
 npm start
 ```
