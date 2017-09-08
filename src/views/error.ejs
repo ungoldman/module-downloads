@@ -11,9 +11,9 @@
   <body>
     <div class="hero">
       <div class="hero-body">
-        <h1><%= error.status %> / <%= message %></h1>
+        <h1><%= status %> / <%= message %></h1>
         <p><strong>Oh no!</strong> Our server encountered an error while processing your request.</p>
-        <pre><%= error.stack %></pre>
+        <% if (stack) { %><pre><%= stack %></pre><% } %>
       </div>
     </div>
   </body>
