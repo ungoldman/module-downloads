@@ -1,6 +1,7 @@
 html {
   color: #000;
 }
+html, body { min-height: 100% }
 .hero {
   align-items: center;
   background: #c2e59c; /* fallback for old browsers */
@@ -12,6 +13,17 @@ html {
 }
 .hero-body {
   padding: 3em 1em;
-
 }
 .hero-body.center { text-align: center }
+.content {
+  min-height: 90%;
+  max-width: 50em;
+  margin: 3em auto;
+  padding: 2em;
+  overflow: hidden;
+  word-wrap: break-word;
+  border: 1px solid #eee;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+.content > *:first-child { margin-top: 0 }
