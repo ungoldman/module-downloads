@@ -7,15 +7,18 @@
     "url": "https://github.com/pdxnode/pdxnode.org/issues"
   },
   "dependencies": {
-    "body-parser": "~1.17.1",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.3",
-    "ejs": "~2.5.6",
-    "express": "~4.15.2",
-    "morgan": "~1.8.1",
+    "browserify-middleware": "^7.1.0",
+    "choo": "^6.0.0",
+    "choo-devtools": "^1.3.1",
+    "choo-log": "^7.2.1",
+    "debug": "^3.0.1",
+    "express": "^4.15.4",
+    "gravatar-url": "^2.0.0",
+    "hyperstream": "^1.2.2",
+    "morgan": "^1.8.2",
     "npm-list-author-packages": "^2.0.1",
-    "npm-run-all": "^4.1.1",
-    "serve-favicon": "~2.4.2"
+    "opn": "^5.1.0",
+    "serve-favicon": "^2.4.3"
   },
   "devDependencies": {
     "standard": "^10.0.3"
