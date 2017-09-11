@@ -13,21 +13,17 @@ const port = process.env.PORT || '3000'
 const prod = process.env.NODE_ENV === 'production'
 const app = express()
 
-/**
- * settings
- */
+// settings
+
 app.set('port', process.env.PORT || '3000')
 
-/**
- * middleware
- */
+// middleware
+
 app.use(favicon(path.join(__dirname, 'static', 'favicon.ico')))
 app.use(morgan(prod ? 'tiny' : 'dev'))
 app.use(express.static('static'))
 
-/**
- * API routes
- */
+// API routes
 
 app.get('/api/npm-download-stats/:username', (req, res) => {
   const { username } = req.params
@@ -46,9 +42,7 @@ app.get('/api/npm-download-stats/:username', (req, res) => {
   })
 })
 
-/**
- * App routes
- */
+// App routes
 
 // code bundle
 // TODO: generate and cache on startup in prod
@@ -62,9 +56,8 @@ app.get('*', (req, res) => {
   index.pipe(html).pipe(res)
 })
 
-/**
- * start the server
- */
+// start the server
+
 app.listen(port, () => {
   console.log(`Listening on ${port}`)
   if (!prod) open(`http://localhost:${port}`)
