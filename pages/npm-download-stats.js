@@ -21,7 +21,7 @@ function view (state, emit) {
   const { stats } = state
 
   return html`
-    <div class="hero">
+    <div class="hero green-and-blue">
       <div class="hero-body">
         <div class="content">
           <h1><a href="/npm-download-stats">npm download stats</a></h1>
