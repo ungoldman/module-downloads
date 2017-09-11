@@ -20,12 +20,17 @@ module.exports = () => html`
 
     <div class="section cinnamint">
       <div class="container">
-        <h2>What's this all about?</h2>
-        <p>
-          <strong>PDXNode</strong> is a <a href="https://nodejs.org">Node.js</a> usergroup based in <a href="">Portland, Oregon</a>.
-          We organize two meetups every month: one for talks, one for hacks.
-          We're also working on putting together some workshops!
-        </p>
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Welcome, weary traveler! Pull up a cyberchair and I'll tell you a story.</span>
+            <p>
+              <strong>PDXNode</strong> is a <a href="https://nodejs.org">Node.js</a>
+              usergroup based in <a href="">Portland, Oregon</a>.
+              We organize two meetups every month: one for talks, one for hacks.
+              We're also working on putting together some workshops!
+            </p>
+          </div>
+        </div>
 
         <div class="row left-align">
           <div class="col m4">
@@ -78,20 +83,19 @@ module.exports = () => html`
     <footer class="page-footer royal">
       <div class="container">
         <div class="row">
-          <div class="col l5 s12">
+          <div class="col m6">
             <h5 class="white-text">Stay in touch!</h5>
             <p class="grey-text text-lighten-4">You can use the following futuristic technologies to talk to us.</p>
             <ul>
               <li>🐦 <a class="grey-text text-lighten-3" href="https://twitter.com/pdxnode">Twitter</a></li>
               <li>🐈 <a class="grey-text text-lighten-3" href="https://github.com/pdxnode">Github</a></li>
-              <li>🤓 <a class="grey-text text-lighten-3" href="http://webchat.freenode.net/?channels=pdxnode">IRC</a></li>
-              <li>🛅 <a class="grey-text text-lighten-3" href="https://gitter.im/pdxnode/Lobby">Gitter</a></li>
-              <li>🔜 Slack (coming soon)</li>
+              <li>🐍 <a class="grey-text text-lighten-3" href="http://webchat.freenode.net/?channels=pdxnode">IRC</a></li>
+              <li>🐙 <a class="grey-text text-lighten-3" href="https://gitter.im/pdxnode/Lobby">Gitter</a></li>
             </ul>
           </div>
-          <div class="col l5 offset-l2 s12">
+          <div class="col m5 offset-m1">
             <h5 class="white-text">Experiments</h5>
-            <p class="grey-text text-lighten-4">Sometimes we work on things together! Here is a thing:</p>
+            <p class="grey-text text-lighten-4">Sometimes we work on things together!</p>
             <ul>
               <li>📈 <a class="grey-text text-lighten-3" href="/npm-download-stats">NPM Download Stats</a></li>
             </ul>
@@ -100,7 +104,9 @@ module.exports = () => html`
       </div>
       <div class="footer-copyright">
         <div class="container">
-        <strong>(<a class="grey-text text-lighten-3" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>)</strong> 2017 PDXNode & Contributors 🎉
+          <strong>(<a class="grey-text text-lighten-3" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>)</strong> 2017 PDXNode & Contributors 🎉
+          <a class="grey-text text-lighten-4 right" href="https://github.com/pdxnode/pdxnode.org">⚙️ Edit on Github</a>
+        </div>
       </div>
     </footer>
   </div>

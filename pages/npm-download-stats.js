@@ -43,7 +43,7 @@ function view (state, emit) {
                 <div class="indeterminate"></div>
               </div>
             </div>`
-            : username != null && stats.list
+            : username != null && Array.isArray(stats.list)
             ? renderPackages(username, stats)
             : null
           }

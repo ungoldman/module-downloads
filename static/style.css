@@ -41,7 +41,7 @@ html, body { min-height: 100% }
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0e/Willamette_River_Portland_Oregon.jpg);
   background-size: cover;
 }
-.section { padding: 10vh 0 }
+.section { padding: 1em 0 }
 .subhead { font-weight: 100 }
 .scroll-wrap {
   position: relative;
