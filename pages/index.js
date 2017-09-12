@@ -54,7 +54,7 @@ module.exports = () => html`
                 <span class="card-title">Hack Nights</span>
               </div>
               <div class="card-content">
-                <p>Every last Thursday we put on a hack night at <strong><a href="http://pdxhackerspace.org/">Ctrl-H Hackerspace</a></strong> where the goal is to provide a fun and easy-going environment for individuals & groups to hack on their own projects and ask questions along the way, as well as support begginers and people who are new to Node with help in answering questions and pair-coding.</p>
+                <p>Every last Thursday we put on a hack night at <strong><a href="http://pdxhackerspace.org/">Ctrl-H Hackerspace</a></strong> where the goal is to provide a fun and easy-going environment for individuals & groups to hack on their own projects and ask questions along the way, as well as support beginners and people who are new to Node with help in answering questions and pair-coding.</p>
               </div>
               <div class="card-action">
                 <a href="https://www.meetup.com/pdxnode/">See Next Event</a>
