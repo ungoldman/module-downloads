@@ -23,8 +23,9 @@
     "npm": "5"
   },
   "keywords": [
-    "pdxnode",
-    "website"
+    "downloads",
+    "modules",
+    "npm"
   ],
   "license": "MIT",
   "main": "index.js",
