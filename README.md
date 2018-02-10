@@ -4,7 +4,7 @@ Dashboard for viewing module downloads from the NPM registry.
 
 ## About
 
-This was originally built as a demo project for the [PDXNode](http://pdxnode.org) hack night meetup at the [CTRL-H Hackerspace](http://pdxhackerspace.org) in the Portland.
+This was originally built as a demo project for the [PDXNode](http://pdxnode.org) hack night meetup at the [CTRL-H Hackerspace](http://pdxhackerspace.org) around September 2017.
 
 ## Developing
 
