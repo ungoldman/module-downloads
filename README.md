@@ -1,26 +1,19 @@
-# pdxnode.org
+# module-downloads
 
-This is the source for [pdxnode.org](http://pdxnode.org).
-
-[![travis][1]][2]
-[![standard][3]][4]
-
-[1]: https://img.shields.io/travis/PDXNode/pdxnode.org.svg?style=flat-square
-[2]: https://travis-ci.org/PDXNode/pdxnode.org
-[3]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
-[4]: http://npm.im/standard
+Dashboard for viewing module downloads from the NPM registry.
 
 ## Developing
 
 ```
-git clone git@github.com:PDXNode/pdxnode-org.git
 npm install
 npm start
+npm test
 ```
 
 1. `git clone` will clone the source of this repository to the working directory in your terminal
 1. `npm install` will install all dependencies needed for working on the site
 1. `npm start` will build the site and start a local live-reloading server so you can work on the site right away
+1. `npm test` will run [`standard`](standardjs.com) to check for syntax errors and enforce code style.
 
 ## Contributing
 

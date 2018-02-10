@@ -2,7 +2,7 @@
 
 ## Code of Conduct
 
-This project is intended to be a safe, welcoming space for collaboration. All contributors are expected to adhere to our [code of conduct](https://github.com/PDXNode/pdxnode/blob/master/code-of-conduct.md). Thank you for being kind to each other!
+This project is intended to be a safe, welcoming space for collaboration. All contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct. Thank you for being kind to each other!
 
 ## Contributions welcome!
 
@@ -26,8 +26,6 @@ This repository uses [`standard`][standard-url] to maintain code style and consi
 
 [standard-image]: https://cdn.rawgit.com/feross/standard/master/badge.svg
 [standard-url]: https://github.com/feross/standard
-[semistandard-image]: https://cdn.rawgit.com/flet/semistandard/master/badge.svg
-[semistandard-url]: https://github.com/Flet/semistandard
 
 ## Project Governance
 

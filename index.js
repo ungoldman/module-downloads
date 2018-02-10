@@ -5,27 +5,25 @@ const express = require('express')
 const browserify = require('browserify-middleware')
 const listAuthorPkgs = require('npm-list-author-packages')
 const hyperstream = require('hyperstream')
-const favicon = require('serve-favicon')
 const open = require('opn')
 const client = require('./client')
 
-const port = process.env.PORT || '3000'
-const prod = process.env.NODE_ENV === 'production'
+const port = process.env.PORT || 3000
+const isProd = process.env.NODE_ENV === 'production'
 const app = express()
 
 // settings
 
-app.set('port', process.env.PORT || '3000')
+app.set('port', port)
 
 // middleware
 
-app.use(favicon(path.join(__dirname, 'static', 'favicon.ico')))
-app.use(morgan(prod ? 'tiny' : 'dev'))
+app.use(morgan(isProd ? 'tiny' : 'dev'))
 app.use(express.static('static'))
 
 // API routes
 
-app.get('/api/npm-download-stats/:username', (req, res) => {
+app.get('/api/:username', (req, res) => {
   const { username } = req.params
 
   listAuthorPkgs({ username }, (err, list) => {
@@ -60,5 +58,5 @@ app.get('*', (req, res) => {
 
 app.listen(port, () => {
   console.log(`Listening on ${port}`)
-  if (!prod) open(`http://localhost:${port}`)
+  if (!isProd) open(`http://localhost:${port}`)
 })
